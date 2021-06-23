@@ -1,0 +1,27 @@
+{
+  "name": "prisma-tut",
+  "author": {
+    "name": "Talmeez Ahmed"
+  },
+  "scripts": {
+    "seed": "ts-node-dev prisma/seed.ts",
+    "dev": "ts-node-dev --no-notify --respawn --transpile-only src/index"
+  },
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "prisma": "2.25.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@prisma/client": "2.25.0",
+    "apollo-server": "^2.25.2",
+    "graphql": "^15.5.1",
+    "graphql-scalars": "^1.10.0",
+    "nexus": "^1.0.0",
+    "nexus-plugin-prisma": "^0.35.0"
+  }
+}
